@@ -295,7 +295,7 @@
       <file leaf-file-name="GameGrid.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/gameStage/GameGrid.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="36" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.29605263">
+            <state line="33" column="54" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.2967033">
               <folding />
             </state>
           </provider>
@@ -1007,7 +1007,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/gameStage/GameGrid.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="36" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.29605263">
+        <state line="33" column="54" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.2967033">
           <folding />
         </state>
       </provider>
