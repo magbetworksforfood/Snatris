@@ -6,10 +6,15 @@ package com.playtune.snatris.snakeNew {
     import com.playtune.gameKit.resources.ResourceManager;
     import com.playtune.gameKit.utils.ScaleBitmap;
 
+    import starling.display.Image;
+    import starling.utils.deg2rad;
+
     public class Tail extends SnakeSegment {
 
         private static const WIDTH:Number = 25;
         private static const HEIGHT:Number = 25;
+
+        private var tailImg:Image;
 
         public function Tail():void {
             draw();
@@ -23,9 +28,13 @@ package com.playtune.snatris.snakeNew {
              graphics.drawRoundRect(0, 0, WIDTH, HEIGHT, 5, 5);
              graphics.endFill();*/
 
-            bmp = new ScaleBitmap(ResourceManager.instance.getBitmapDataById(ImageResources.TAIL.id))
-
-            addChild(bmp);
+//            bmp = new ScaleBitmap(ResourceManager.instance.getBitmapDataById(ImageResources.TAIL.id))
+            tailImg = new Image(ResourceManager.instance.getTextureById(ImageResources.TAIL.id));
+            tailImg.x = tailImg.width >> 1;
+            tailImg.y = tailImg.height >> 1;
+            tailImg.pivotX = tailImg.width >> 1;
+            tailImg.pivotY = tailImg.height >> 1;
+            addChild(tailImg);
         }
 
 
@@ -34,7 +43,8 @@ package com.playtune.snatris.snakeNew {
         override public function rotateChildren(angle:Number):void {
             if (_angle != angle) {
                 _angle = angle;
-                var radians:Number = angle * (Math.PI / 180);
+                tailImg.rotation = angle//deg2rad(angle);
+                /*var radians:Number = angle * (Math.PI / 180);
                 trace(angle);
                 var offsetWidth:Number = bmp.width >> 1;
                 var offsetHeight:Number =  bmp.height >> 1;
@@ -44,7 +54,7 @@ package com.playtune.snatris.snakeNew {
                 matrix.rotate(radians);
                 matrix.translate(+offsetWidth, +offsetHeight);
                 //matrix.concat(bmp.transform.matrix);
-                bmp.transform.matrix = matrix;
+                bmp.transform.matrix = matrix;*/
             }
         }
     }

@@ -1,8 +1,4 @@
 package com.playtune.snatris.tiles {
-    import flash.display.Bitmap;
-    import flash.display.DisplayObject;
-    import flash.display.Sprite;
-
     import com.playtune.snatris.entities.EntityType;
 
     import com.playtune.snatris.entities.IEntity;
@@ -10,6 +6,14 @@ package com.playtune.snatris.tiles {
     import com.playtune.gameKit.resources.ResourceManager;
     import com.playtune.gameKit.utils.ScaleBitmap;
     import com.playtune.snatris.gameStage.GameGrid;
+
+    import flash.display.Bitmap;
+
+    import starling.display.DisplayObject;
+    import starling.display.Image;
+
+    import starling.display.Sprite;
+    import starling.textures.Texture;
 
     public class SxTile extends Sprite {
 
@@ -33,23 +37,18 @@ package com.playtune.snatris.tiles {
         }
 
         public function draw():void {
-            var bitmap:Bitmap = new Bitmap();
-            bitmap.bitmapData = ResourceManager.instance.getBitmapDataById(ImageResources.CELL_BORDER.id);
-            bitmap.width = WIDTH;
-            bitmap.height = HEIGHT;
-            addChild(bitmap);
+//            var bitmap:Texture = new Texture();
+//            bitmap.bitmapData = ResourceManager.instance.getBitmapDataById(ImageResources.CELL_BORDER.id);
+            //bitmap.width = WIDTH;
+            //bitmap.height = HEIGHT;
+            var image:Image = new Image(ResourceManager.instance.getTextureById(ImageResources.CELL_BORDER.id));
+            image.width = WIDTH;
+            image.height = HEIGHT;
+            addChild(image);
 
             //graphics.beginFill(0xC9F76F);
             //graphics.lineStyle(1, 0xFFFFFF);
             //graphics.drawRect(0,0, WIDTH, HEIGHT);
-        }
-
-        public function get pivotX():int {
-            return x >> 1;
-        }
-
-        public function get pivotY():int {
-            return y >> 1;
         }
 
         public function containedObjectOfType(type:EntityType):Boolean {

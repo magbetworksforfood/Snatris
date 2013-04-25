@@ -1,9 +1,14 @@
 package com.playtune.snatris.snakeNew {
+    import feathers.display.TiledImage;
+
     import flash.geom.Matrix;
     import com.playtune.gameKit.resources.ImageResources;
     import com.playtune.gameKit.resources.ResourceManager;
     import com.playtune.gameKit.utils.ScaleBitmap;
     import com.playtune.snatris.tiles.SxTile;
+
+    import starling.display.Image;
+    import starling.utils.deg2rad;
 
     public class Head extends SnakeSegment {
 
@@ -12,9 +17,12 @@ package com.playtune.snatris.snakeNew {
 
         private var bmp:ScaleBitmap;
 
+        private var headImg:Image;;
+
         public function Head():void {
             draw();
         }
+
 
         private function draw():void {
             /*graphics.clear();
@@ -22,8 +30,13 @@ package com.playtune.snatris.snakeNew {
             graphics.drawRoundRect(0, 0, WIDTH, HEIGHT, 5, 5);
             graphics.endFill();*/
 
-            bmp = new ScaleBitmap(ResourceManager.instance.getBitmapDataById(ImageResources.HEAD.id));
-            addChild(bmp);
+//            bmp = new ScaleBitmap(ResourceManager.instance.getBitmapDataById(ImageResources.HEAD.id));
+            headImg = new Image(ResourceManager.instance.getTextureById(ImageResources.HEAD.id));
+            headImg.x = headImg.width >> 1;
+            headImg.y = headImg.height >> 1;
+            headImg.pivotX = headImg.width >> 1;
+            headImg.pivotY = headImg.height >> 1;
+            addChild(headImg);
         }
 
         override public function moveTo(tile:SxTile):void {
@@ -52,6 +65,8 @@ package com.playtune.snatris.snakeNew {
         override public function rotateChildren(angle:Number):void {
             if (_angle != angle) {
                 _angle = angle;
+                headImg.rotation = angle//deg2rad(angle);
+                /*_angle = angle;
                 var radians:Number = angle * (Math.PI / 180);
                 trace(angle);
                 var offsetWidth:Number = bmp.width >> 1;
@@ -62,7 +77,7 @@ package com.playtune.snatris.snakeNew {
                 matrix.rotate(radians);
                 matrix.translate(+offsetWidth, +offsetHeight);
                 //matrix.concat(bmp.transform.matrix);
-                bmp.transform.matrix = matrix;
+                bmp.transform.matrix = matrix;*/
             }
         }
 

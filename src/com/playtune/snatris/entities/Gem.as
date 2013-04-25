@@ -1,8 +1,10 @@
 package com.playtune.snatris.entities {
-    import flash.display.Bitmap;
-    import flash.display.Sprite;
     import com.playtune.snatris.factories.GemFactory;
     import com.playtune.gameKit.resources.ResourceManager;
+
+    import starling.display.Image;
+
+    import starling.display.Sprite;
 
     public class Gem extends Sprite implements IEntity {
 
@@ -16,10 +18,7 @@ package com.playtune.snatris.entities {
         }
 
         private function init():void {
-            var bitmap:Bitmap = new Bitmap();
-            bitmap.bitmapData = ResourceManager.instance.getBitmapDataById(GemFactory.getImageIdByType(gemType));
-
-            addChild(bitmap);
+            addChild(new Image(ResourceManager.instance.getTextureById(GemFactory.getImageIdByType(gemType))));
         }
 
         public function get type():EntityType {

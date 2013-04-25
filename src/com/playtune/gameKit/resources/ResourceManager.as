@@ -17,6 +17,8 @@ package com.playtune.gameKit.resources {
     import com.playtune.gameKit.preloader.IPreloader;
     import com.playtune.gameKit.preloader.Preloader;
 
+    import starling.textures.Texture;
+
     public class ResourceManager extends EventDispatcher {
 
         private static var _instance:ResourceManager;
@@ -33,6 +35,9 @@ package com.playtune.gameKit.resources {
         private var busy:Boolean;
         private var loadingQueue:Vector.<LoadingQueueItem> = new <LoadingQueueItem>[];
         private var loaded:int;
+
+        private var textureById:Dictionary = new Dictionary();
+        private var bitmapDataById:Dictionary = new Dictionary();
 
         public static function get instance():ResourceManager {
             if (!_instance) _instance = new ResourceManager(new SingletonData());
@@ -64,9 +69,19 @@ package com.playtune.gameKit.resources {
         }
 
         public function getBitmapDataById(id:String):BitmapData {
-            var resource:ExternalResource = resourcesById[id]
+            if (bitmapDataById[id] == undefined) {
+                var resource:ExternalResource = resourcesById[id];
+                bitmapDataById[id] = resource && resource.type == ResourceType.IMG ? resource.data as BitmapData : null;
+            }
 
-            return resource && resource.type == ResourceType.IMG ? resource.data as BitmapData : null;
+            return bitmapDataById[id];
+        }
+
+        public function getTextureById(id:String):Texture {
+            if (textureById[id] == undefined) {
+                textureById[id] = Texture.fromBitmapData(getBitmapDataById(id));
+            }
+            return textureById[id];
         }
 
         public function getBitmapData(resource:ExternalResource):void {
@@ -74,7 +89,7 @@ package com.playtune.gameKit.resources {
         }
 
         public function getXmlById(id:String):XML {
-            var resource:ExternalResource = resourcesById[id]
+            var resource:ExternalResource = resourcesById[id];
 
             return resource && resource.type == ResourceType.XML ? resource.data as XML : null;
         }
@@ -123,7 +138,7 @@ package com.playtune.gameKit.resources {
             currentLoadingItem = item;
 
             if (!preloader.opened) {
-                preloader.open();
+                //preloader.open();
             }
 
             var resource:ExternalResource = item.resource;
@@ -164,7 +179,7 @@ package com.playtune.gameKit.resources {
                 loaded = 0;
                 dispatchEvent(new Event(Event.COMPLETE));
 
-                preloader.close();
+                //preloader.close();
             }
 
         }

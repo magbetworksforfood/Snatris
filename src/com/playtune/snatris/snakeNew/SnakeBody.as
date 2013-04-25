@@ -1,8 +1,8 @@
 package com.playtune.snatris.snakeNew {
 
-    import flash.display.Sprite;
-
     import com.playtune.snatris.tiles.SxTile;
+
+    import starling.display.Sprite;
 
     public class SnakeBody extends SnakeSegment {
 

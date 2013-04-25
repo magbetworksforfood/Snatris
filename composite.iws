@@ -4,15 +4,15 @@
     <list default="true" id="53cce903-af91-4ded-b3b8-4b7094ad7d6d" name="Default" comment="" />
     <ignored path="composite.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366835341495" ignored="false" />
+    <file path="/fragment.js2" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366909281419" ignored="false" />
     <file path="/Composite.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1361826274091" ignored="false" />
-    <file path="/Main.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366664153153" ignored="false" />
-    <file path="/Tail.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365367968442" ignored="false" />
-    <file path="/BodySegment.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365366148862" ignored="false" />
+    <file path="/Main.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366899098556" ignored="false" />
+    <file path="/Tail.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366894249462" ignored="false" />
+    <file path="/BodySegment.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366888751885" ignored="false" />
     <file path="/GameplayView.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1361733783319" ignored="false" />
     <file path="/Background.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1364146435069" ignored="false" />
     <file path="/GameTable.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365262990962" ignored="false" />
-    <file path="/Head.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365368062013" ignored="false" />
+    <file path="/Head.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366894604993" ignored="false" />
     <file path="/GameActor.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363465347472" ignored="false" />
     <file path="/GameActorAbstract.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1361740333707" ignored="false" />
     <file path="/ISegment.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1364846539078" ignored="false" />
@@ -39,7 +39,7 @@
     <file path="$USER_HOME$/game insight/src/helpers/preloader/Preloader.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363473084595" ignored="false" />
     <file path="$USER_HOME$/game insight/src/helpers/preloader/IPreloader.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363457040681" ignored="false" />
     <file path="/IPreloader.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363439131461" ignored="false" />
-    <file path="/a.dummy" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365366756940" ignored="false" />
+    <file path="/a.dummy" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366902513449" ignored="false" />
     <file path="$USER_HOME$/game insight/src/helpers/data/Enum.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363439634814" ignored="false" />
     <file path="$USER_HOME$/game insight/src/helpers/util/getShorClassName.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363439405589" ignored="false" />
     <file path="$USER_HOME$/game insight/src/helpers/resources/LoadDataType.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363439548090" ignored="false" />
@@ -68,7 +68,7 @@
     <file path="$USER_HOME$/game insight/src/model/HiddenObject.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363465374111" ignored="false" />
     <file path="/HiddenObject.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363465374111" ignored="false" />
     <file path="$USER_HOME$/game insight/src/cmd/MainController.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363550845896" ignored="false" />
-    <file path="/MainController.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363550844982" ignored="false" />
+    <file path="/MainController.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366887654158" ignored="false" />
     <file path="$USER_HOME$/game insight/src/Main.mxml" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363551387399" ignored="false" />
     <file path="$USER_HOME$/game insight/src/helpers/resources/ResourceManager.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363549179666" ignored="false" />
     <file path="$USER_HOME$/game insight/src/model/GameActor.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363465557918" ignored="false" />
@@ -79,7 +79,7 @@
     <file path="/GameView.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363550871958" ignored="false" />
     <file path="$USER_HOME$/game insight/src/views/SeekAndFindView.mxml" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363552145960" ignored="false" />
     <file path="/SeekAndFindView.mxml" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363552111824" ignored="false" />
-    <file path="/ResourceManager.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365276440834" ignored="false" />
+    <file path="/ResourceManager.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366892930686" ignored="false" />
     <file path="$USER_HOME$/game insight/src/helpers/utils/toArray.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363545621445" ignored="false" />
     <file path="$USER_HOME$/game insight/src/controller/MainController.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363551619960" ignored="false" />
     <file path="$USER_HOME$/game insight/src/views/skins/CustomButtonSkin.mxml" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1363551851254" ignored="false" />
@@ -98,17 +98,17 @@
     <file path="/Tile.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1364326028978" ignored="false" />
     <file path="/State.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1364722594059" ignored="false" />
     <file path="/SnakeBody.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365105889456" ignored="false" />
-    <file path="/SnakeSegment.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365366718381" ignored="false" />
+    <file path="/SnakeSegment.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366907164117" ignored="false" />
     <file path="/EntityType.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1364850047869" ignored="false" />
     <file path="/IEntity.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1364850778047" ignored="false" />
-    <file path="/SxTile.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365279141466" ignored="false" />
-    <file path="/Gem.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365365486130" ignored="false" />
+    <file path="/SxTile.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366893901490" ignored="false" />
+    <file path="/Gem.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366905953532" ignored="false" />
     <file path="/GemColor.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365363740935" ignored="false" />
     <file path="/GameController.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365273678992" ignored="false" />
     <file path="/GameLoopController.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365271954793" ignored="false" />
-    <file path="/GameTableView.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366700998782" ignored="false" />
+    <file path="/GameTableView.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366901091497" ignored="false" />
     <file path="/Sizes.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365272752178" ignored="false" />
-    <file path="/GameGrid.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366834110933" ignored="false" />
+    <file path="/GameGrid.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366906301349" ignored="false" />
     <file path="/ImageResources.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365364696784" ignored="false" />
     <file path="/GemFactory.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1365365611918" ignored="false" />
     <file path="/fragment.java" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366661072664" ignored="false" />
@@ -128,12 +128,8 @@
     <file path="$PROJECT_DIR$/src/com/playtune/snatris/gameKit/navigation/NavigatorController.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833516054" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/playtune/snatris/gameKit/preloader/IPreloader.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833516054" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/playtune/snatris/gameKit/preloader/Preloader.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833516054" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/playtune/gameKit/navigation/AbstractView.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833534222" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/playtune/gameKit/navigation/InterfaceType.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833534222" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/playtune/gameKit/navigation/IView.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833534222" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/playtune/gameKit/navigation/NavigatorController.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833534222" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/playtune/gameKit/preloader/IPreloader.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833534222" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/playtune/gameKit/preloader/Preloader.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833534222" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/gamua/starling/src/starling/core/RenderSupport.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833629725" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/gamua/starling/src/starling/core/StatsDisplay.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833629725" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/gamua/starling/src/starling/core/TouchMarker.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833629725" ignored="false" />
@@ -189,6 +185,59 @@
     <file path="$PROJECT_DIR$/src/com/gamua/starling/src/starling/utils/VAlign.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833629738" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/gamua/starling/src/starling/utils/AssetManager.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833629738" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/gamua/starling/src/starling/utils/VertexData.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366833629939" ignored="false" />
+    <file path="/DisplayObject.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882088865" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/animation/DelayedCall.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/animation/IAnimatable.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/animation/Juggler.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/animation/Transitions.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/animation/Tween.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/core/RenderSupport.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/core/starling_internal.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/core/StatsDisplay.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/core/TouchMarker.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/core/TouchProcessor.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/display/MovieClip.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/display/Quad.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/display/QuadBatch.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/display/Stage.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/errors/MissingContextError.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/events/EnterFrameEvent.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/events/ResizeEvent.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/events/TouchEvent.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/events/TouchPhase.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/filters/ColorMatrixFilter.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/filters/FragmentFilter.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/filters/FragmentFilterMode.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/text/MiniBitmapFont.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/text/TextField.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/text/TextFieldAutoSize.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/textures/ConcreteTexture.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/textures/RenderTexture.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/textures/SubTexture.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/textures/TextureAtlas.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/textures/TextureSmoothing.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/utils/Color.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/utils/deg2rad.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/utils/formatString.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/utils/getNextPowerOfTwo.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/utils/HAlign.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/utils/MatrixUtil.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/utils/rad2deg.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/utils/RectangleUtil.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/utils/ScaleMode.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/utils/transformCoords.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/utils/VAlign.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="$PROJECT_DIR$/src/starling/utils/VertexData.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882124763" ignored="false" />
+    <file path="/EventDispatcher.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366882170709" ignored="false" />
+    <file path="/Dummy.txt" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366904732798" ignored="false" />
+    <file path="/Main-app.xml" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366908970006" ignored="false" />
+    <file path="$USER_HOME$/Documents/GitHub/overkingsjava/flex/app_base/src/main/flex/ru/bdirect/overkings/battlefield/view/components/bars/HitBar.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366901533537" ignored="false" />
+    <file path="/HitBar.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366900439200" ignored="false" />
+    <file path="$USER_HOME$/Documents/GitHub/overkingsjava/flex/overkings-app/src/main/flex/ru/bdirect/overkings/util/GlobalTimerController.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366904703483" ignored="false" />
+    <file path="$USER_HOME$/Documents/GitHub/overkingsjava/flex/overkings-app/src/main/flex/ru/bdirect/overkings/cmd/EnterWorld.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366904240091" ignored="false" />
+    <file path="/GlobalTimerController.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366904166147" ignored="false" />
+    <file path="/EnterWorld.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366904240091" ignored="false" />
+    <file path="/GameLoopScreen.as" changelist="53cce903-af91-4ded-b3b8-4b7094ad7d6d" time="1366909055627" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,6 +252,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -237,7 +287,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -250,17 +299,48 @@
       <file leaf-file-name="Main.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="45" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+            <state line="29" column="26" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Starling.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/starling/core/Starling.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="169" column="20" selection-start="8577" selection-end="8577" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Snake.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/Snake.as">
+      <file leaf-file-name="NavigatorController.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/playtune/gameKit/navigation/NavigatorController.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="0" selection-start="2473" selection-end="2473" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISegment.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/ISegment.as">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Head.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/Head.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="0" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#44#79#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -268,8 +348,10 @@
       <file leaf-file-name="SnakeBody.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/SnakeBody.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="39" column="34" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#45#86#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -277,8 +359,10 @@
       <file leaf-file-name="SnakeSegment.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/SnakeSegment.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="44" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="107" column="34" selection-start="3248" selection-end="3248" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#44#86#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -286,16 +370,164 @@
       <file leaf-file-name="BodySegment.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/BodySegment.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="39" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
+            <state line="25" column="35" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameGrid.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main-app.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main-app.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="58" selection-start="495" selection-end="495" vertical-scroll-proportion="-7.2">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tail.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/Tail.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="37" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameGrid.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/gameStage/GameGrid.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="54" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.2967033">
+            <state line="105" column="40" selection-start="4000" selection-end="4000" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#45#98#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Touch.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/starling/events/Touch.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="17" selection-start="1752" selection-end="1752" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scale9Textures.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/feathers/textures/Scale9Textures.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="20" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NineSliceImage.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/TEMP/Temp1_NineSliceImage.zip/NineSliceImage.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SxTile.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/tiles/SxTile.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="27" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gem.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/entities/Gem.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="53" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#44#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceManager.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/playtune/gameKit/resources/ResourceManager.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="190" column="0" selection-start="6754" selection-end="6754" vertical-scroll-proportion="-48.92">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IPreloader.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/playtune/gameKit/preloader/IPreloader.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Texture.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/starling/textures/Texture.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="128" column="0" selection-start="6031" selection-end="6031" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Preloader.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/playtune/gameKit/preloader/Preloader.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="0" selection-start="2816" selection-end="2816" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="library.swf" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/flex4.9/frameworks/libs/air/airglobal.swc!/library.swf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4206" column="13" selection-start="184302" selection-end="184302" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisplayObjectContainer.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/starling/display/DisplayObjectContainer.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="102" column="0" selection-start="4246" selection-end="4246" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisplayObject.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/starling/display/DisplayObject.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="45" selection-start="5615" selection-end="5615" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventDispatcher.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/starling/events/EventDispatcher.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="7" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Event.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/starling/events/Event.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="17" selection-start="1755" selection-end="1755" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -328,10 +560,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameTableView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/views/GameTableView.as">
+      <file leaf-file-name="GameLoopScreen.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/views/GameLoopScreen.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+            <state line="109" column="41" selection-start="3818" selection-end="3818" vertical-scroll-proportion="0.6855346">
+              <folding>
+                <element signature="e#41#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameConstants.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/GameConstants.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="74" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -350,22 +593,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/sx/tiles/SxTile.as" />
-        <option value="$PROJECT_DIR$/src/sx/entities/GemColor.as" />
-        <option value="$PROJECT_DIR$/src/sx/gameKit/resources/ImageResources.as" />
-        <option value="$PROJECT_DIR$/src/sx/entities/Gem.as" />
-        <option value="$PROJECT_DIR$/src/sx/factories/GemFactory.as" />
-        <option value="$PROJECT_DIR$/src/sx/snakeNew/Snake.as" />
-        <option value="$PROJECT_DIR$/src/sx/gameStage/GameGrid.as" />
-        <option value="$PROJECT_DIR$/src/sx/snakeNew/BodySegment.as" />
-        <option value="$PROJECT_DIR$/src/sx/snakeNew/SnakeSegment.as" />
-        <option value="$PROJECT_DIR$/src/sx/snakeNew/Tail.as" />
-        <option value="$PROJECT_DIR$/src/sx/snakeNew/Head.as" />
-        <option value="$PROJECT_DIR$/src/sx/gameKit/resources/ResourceManager.as" />
-        <option value="$PROJECT_DIR$/Main-app.xml" />
-        <option value="$PROJECT_DIR$/src/sx/views/GameTableView.as" />
+        <option value="$PROJECT_DIR$/src/com/playtune/snatris/controllers/MainController.as" />
+        <option value="$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/Snake.as" />
+        <option value="$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/BodySegment.as" />
+        <option value="$PROJECT_DIR$/src/com/playtune/snatris/tiles/SxTile.as" />
+        <option value="$PROJECT_DIR$/src/com/playtune/gameKit/resources/ResourceManager.as" />
+        <option value="$PROJECT_DIR$/src/com/playtune/snatris/views/GameTableView.as" />
+        <option value="$PROJECT_DIR$/src/com/playtune/snatris/entities/Gem.as" />
+        <option value="$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/SnakeBody.as" />
         <option value="$PROJECT_DIR$/src/Main.as" />
         <option value="$PROJECT_DIR$/src/com/playtune/snatris/gameStage/GameGrid.as" />
+        <option value="$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/Head.as" />
+        <option value="$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/Tail.as" />
+        <option value="$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/SnakeSegment.as" />
+        <option value="$PROJECT_DIR$/src/com/playtune/snatris/GameConstants.as" />
+        <option value="$PROJECT_DIR$/src/com/playtune/snatris/views/GameLoopScreen.as" />
+        <option value="$PROJECT_DIR$/Main-app.xml" />
       </list>
     </option>
   </component>
@@ -374,10 +617,30 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="22" />
-    <option name="width" value="1916" />
-    <option name="height" value="1058" />
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -386,6 +649,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -405,6 +670,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -420,7 +686,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="composite" />
+              <option name="myItemId" value="Snatris" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,7 +696,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="composite" />
+              <option name="myItemId" value="Snatris" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -444,7 +710,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="composite" />
+              <option name="myItemId" value="Snatris" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -470,7 +736,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="composite" />
+              <option name="myItemId" value="Snatris" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -500,7 +766,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="composite" />
+              <option name="myItemId" value="Snatris" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -530,7 +796,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="composite" />
+              <option name="myItemId" value="Snatris" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -560,7 +826,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="composite" />
+              <option name="myItemId" value="Snatris" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -580,7 +846,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gameStage" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -590,7 +856,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="composite" />
+              <option name="myItemId" value="Snatris" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -612,7 +878,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="composite" />
+              <option name="myItemId" value="Snatris" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -626,23 +892,23 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="fileTemplates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/composite/assets" />
-    <property name="project.structure.side.proportion" value="0.14801864" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testprofile.mobileprovision" />
+    <property name="project.structure.side.proportion" value="0.26923078" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
@@ -651,19 +917,19 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="sx.factories" />
-      <recent name="sx.gameKit.resources" />
-      <recent name="sx" />
-      <recent name="sx.utils" />
-      <recent name="sx.views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/com" />
       <recent name="$PROJECT_DIR$/src/com/gamua" />
       <recent name="$PROJECT_DIR$/src/sx/gameKit/utils" />
       <recent name="$PROJECT_DIR$/src/sx" />
+    </key>
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="sx.factories" />
+      <recent name="sx.gameKit.resources" />
+      <recent name="sx" />
+      <recent name="sx.utils" />
+      <recent name="sx.views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/sx/gameKit/helpers" />
@@ -709,6 +975,7 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -725,6 +992,27 @@
     <configuration default="true" type="RemoteFlashRunConfigurationType" factoryName="Flash Remote Debug">
       <option name="BCName" value="" />
       <option name="moduleName" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -761,20 +1049,15 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="flex_sdk_4.6 (player 11.1)" html_or_swf_file_path="$PROJECT_DIR$/out/production/composite/_Main.swf" launcher_type="Player" main_class_name="Main" module_name="composite" player_path="/Applications/Flash Player Debugger 11.app/Contents/MacOS/Flash Player Debugger" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
-      <RunnerSettings RunnerId="FlexDebugRunner" />
-      <ConfigurationWrapper RunnerId="FlexDebugRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="Snatrix" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="Snatrix" />
+      <option name="BCName" value="Snatris" />
       <option name="IOSSimulatorSdkPath" value="" />
       <option name="adlOptions" value="" />
       <option name="airProgramParameters" value="" />
       <option name="appDescriptorForEmulator" value="IOS" />
       <option name="debugTransport" value="USB" />
       <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="iPhoneRetina" />
+      <option name="emulator" value="iPad" />
       <option name="emulatorAdlOptions" value="" />
       <option name="fastPackaging" value="true" />
       <option name="fullScreenHeight" value="0" />
@@ -787,7 +1070,7 @@
           <option name="playerPath" value="$USER_HOME$/Flash Player Debugger 11.app/Contents/MacOS/Flash Player Debugger" />
         </LauncherParameters>
       </option>
-      <option name="mobileRunTarget" value="Emulator" />
+      <option name="mobileRunTarget" value="iOSDevice" />
       <option name="moduleName" value="Snatris" />
       <option name="overriddenMainClass" value="" />
       <option name="overriddenOutputFileName" value="" />
@@ -804,51 +1087,112 @@
       <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Flash App.Snatrix" />
-    </list>
-    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration default="false" name="Snatris desktop" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="Snatris" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="Snatris" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <RunnerSettings RunnerId="FlexDebugRunner" />
+      <ConfigurationWrapper RunnerId="FlexDebugRunner" />
+      <method />
     </configuration>
+    <configuration default="false" name="Unnamed" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="flex_sdk_4.6 (player 11.1)" html_or_swf_file_path="$PROJECT_DIR$/out/production/composite/_Main.swf" launcher_type="Player" main_class_name="Main" module_name="composite" player_path="/Applications/Flash Player Debugger 11.app/Contents/MacOS/Flash Player Debugger" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
+      <RunnerSettings RunnerId="FlexDebugRunner" />
+      <ConfigurationWrapper RunnerId="FlexDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Flash App.Snatrix" />
+      <item index="1" class="java.lang.String" itemvalue="Flash App.Snatris desktop" />
+    </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="53cce903-af91-4ded-b3b8-4b7094ad7d6d" name="Default" comment="" />
       <created>1352676111328</created>
       <updated>1352676111328</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1916" height="1058" extended-state="0" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3315565" sideWeight="0.49786097" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32161874" sideWeight="0.44438502" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25053304" sideWeight="0.55187166" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25985092" sideWeight="0.44652405" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25080213" sideWeight="0.8560768" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14330219" sideWeight="0.44438502" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25053304" sideWeight="0.55187166" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3315565" sideWeight="0.49786097" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26012793" sideWeight="0.44652405" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24944812" sideWeight="0.67838126" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -906,109 +1250,139 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="43" />
+      <option name="time" value="68" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Main-app.xml">
+    <entry file="file://$PROJECT_DIR$/src/starling/display/Sprite.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="0" selection-start="6024" selection-end="6024" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/playtune/gameKit/resources/ResourceManager.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="24" selection-start="3068" selection-end="3068" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/playtune/gameKit/resources/ImageResources.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="15" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/entities/Gem.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="29" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/entities/GemColor.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/GameConstants.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/views/GameTableView.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/greensock/BlitMask.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/osflash/signals/DeluxeSignal.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="45" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+        <state line="51" column="17" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/Snake.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#44#92#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/starling/events/Touch.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="17" selection-start="1752" selection-end="1752" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/starling/display/DisplayObjectContainer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="0" selection-start="4246" selection-end="4246" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/tiles/SxTile.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="27" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/playtune/gameKit/resources/ImageResources.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="42" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/entities/Gem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="53" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#44#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/SnakeBody.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="39" column="34" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#45#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="26" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/Head.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#44#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/Tail.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="37" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/SnakeSegment.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="44" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="107" column="34" selection-start="3248" selection-end="3248" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#44#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/snakeNew/BodySegment.as">
+    <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/GameConstants.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/osflash/signals/natives/NativeSignal.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="24" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0">
+        <state line="9" column="74" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/gameStage/GameGrid.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="54" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.2967033">
+        <state line="105" column="40" selection-start="4000" selection-end="4000" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#45#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="58" selection-start="495" selection-end="495" vertical-scroll-proportion="-7.2">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/playtune/snatris/views/GameLoopScreen.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="41" selection-start="3818" selection-end="3818" vertical-scroll-proportion="0.6855346">
+          <folding>
+            <element signature="e#41#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,7 +1418,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.14801864" />
+                <option value="0.3065268" />
               </list>
             </option>
           </splitter-proportions>
@@ -1052,11 +1426,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>flex</last-edited>
+          <last-edited>flexSDKs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.14801864" />
+                <option value="0.26923078" />
               </list>
             </option>
           </splitter-proportions>
@@ -1064,12 +1438,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Snatris</last-edited>
+          <last-edited>Snatris|Snatris</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.14801864" />
-                <option value="0.5" />
+                <option value="0.26923078" />
               </list>
             </option>
           </splitter-proportions>

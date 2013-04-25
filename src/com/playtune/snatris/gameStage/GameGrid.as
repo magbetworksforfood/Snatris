@@ -1,20 +1,23 @@
 package com.playtune.snatris.gameStage {
-    import flash.display.Bitmap;
-    import flash.display.Sprite;
-    import flash.events.Event;
-    import flash.events.MouseEvent;
-    import flash.geom.Rectangle;
-
-    import com.playtune.snatris.entities.Gem;
-    import com.playtune.snatris.entities.GemColor;
     import com.playtune.gameKit.resources.ImageResources;
     import com.playtune.gameKit.resources.ResourceManager;
-    import com.playtune.gameKit.utils.ScaleBitmap;
-
+    import com.playtune.snatris.entities.Gem;
+    import com.playtune.snatris.entities.GemColor;
     import com.playtune.snatris.tiles.SxTile;
 
-    import org.osflash.signals.Signal;
-    import org.osflash.signals.natives.NativeSignal;
+    import feathers.display.Scale9Image;
+    import feathers.textures.Scale9Textures;
+
+    import flash.events.MouseEvent;
+    import flash.geom.Point;
+    import flash.geom.Rectangle;
+
+    import starling.display.Image;
+    import starling.display.Sprite;
+    import starling.events.Event;
+    import starling.events.Touch;
+    import starling.events.TouchEvent;
+    import starling.events.TouchPhase;
 
     public class GameGrid extends Sprite {
 
@@ -23,14 +26,22 @@ package com.playtune.snatris.gameStage {
 
         private var tiles:Vector.<Vector.<SxTile>> = new Vector.<Vector.<SxTile>>();
 
-        private var clicked:NativeSignal;
-
         public function GameGrid() {
             addEventListener(Event.ADDED_TO_STAGE, init);
         }
 
         private function init(event:Event):void {
             removeEventListener(Event.ADDED_TO_STAGE, init);
+
+            var scaledTexture:Scale9Textures = new Scale9Textures(ResourceManager.instance.getTextureById(ImageResources.BORDER.id), new Rectangle(52, 52, 2, 2));
+            var border:Scale9Image = new Scale9Image(scaledTexture);
+            border.width = SxTile.WIDTH * COLS + 46;
+            border.height = SxTile.HEIGHT  * ROWS + 46;
+            border.x = -23;
+            border.y = -23;
+            addChild(border);
+
+            var sprite
 
             for (var k:int = 0; k < ROWS; k++) {
                 tiles[k] = new Vector.<SxTile>(COLS);
@@ -39,30 +50,32 @@ package com.playtune.snatris.gameStage {
             for (var i:uint = 0; i < ROWS; i++) {
                 for (var j:uint = 0; j < COLS; j++) {
                     var tile:SxTile = createTile(i, j);
-                    addChild(tile);
 
                     if (i < GameGrid.ROWS - 1 && j < GameGrid.COLS - 1) {
-                        var cellDot:ScaleBitmap = new ScaleBitmap(ResourceManager.instance.getBitmapDataById(ImageResources.CELL_DOT.id));
-                        //cellDot.width = 40;
-                        //cellDot.height = 40;
+                        /*var cellDot:ScaleBitmap = new ScaleBitmap(ResourceManager.instance.getBitmapDataById(ImageResources.CELL_DOT.id));
+                         cellDot.x = tile.x + tile.width - (cellDot.width >> 1);
+                         cellDot.y = tile.y + tile.height - (cellDot.height >> 1);
+                         addChild(cellDot);*/
+
+                        var cellDot:Image = new Image(ResourceManager.instance.getTextureById(ImageResources.CELL_DOT.id));
                         cellDot.x = tile.x + tile.width - (cellDot.width >> 1);
                         cellDot.y = tile.y + tile.height - (cellDot.height >> 1);
                         addChild(cellDot);
                     }
+
+                    addChild(tile);
                 }
             }
 
-            var border:ScaleBitmap = new ScaleBitmap(ResourceManager.instance.getBitmapDataById(ImageResources.BORDER.id));
+            /*var border:ScaleBitmap = new ScaleBitmap(ResourceManager.instance.getBitmapDataById(ImageResources.BORDER.id));
             border.scale9Grid = new Rectangle(52, 52, 2, 2);
             border.width = SxTile.WIDTH * COLS + 46;
             border.height = SxTile.HEIGHT  * ROWS + 46;
             border.x = -23;
-            border.y = -23;
-            addChild(border);
+            border.y = -23;*/
 
-            clicked = new NativeSignal(this, MouseEvent.CLICK, MouseEvent);
-//            addEventListener(MouseEvent.CLICK, onClick);
-            clicked.add(onClick);
+
+            addEventListener(TouchEvent.TOUCH, onTouch);
         }
 
         private function createTile(row:uint, col:uint):SxTile {
@@ -76,16 +89,25 @@ package com.playtune.snatris.gameStage {
         }
 
         public function getTile(row:uint, col:uint):SxTile {
+            if (row >= ROWS || col >= COLS || row < 0 || col < 0) return null;
             return tiles[row][col];
         }
 
-        private function onClick(event:MouseEvent):void {
-            var tile:SxTile = event.target as SxTile;
-            if (tile) {
-                var prob:Number = Math.random();
-                tile.put(new Gem(prob >.6 ? GemColor.RED : prob > 0.3 ? GemColor.GREEN : GemColor.BLUE));
-                //trace('row ', tile.row, 'col ', tile.col);
-                //trace('isEqual: ', tile == getTile(tile.row, tile.col));
+
+
+        private function onTouch(event:TouchEvent):void {
+            var touch:Touch = event.getTouch(this, TouchPhase.BEGAN);
+            if (touch) {
+                var pos:Point = touch.getLocation(this);
+
+                var tile:SxTile = getTile(Math.floor(pos.y / SxTile.HEIGHT), Math.floor(pos.x / SxTile.WIDTH));
+
+                if (tile) {
+                    var prob:Number = Math.random();
+                    tile.put(new Gem(prob >.6 ? GemColor.RED : prob > 0.3 ? GemColor.GREEN : GemColor.BLUE));
+                    //trace('row ', tile.row, 'col ', tile.col);
+                    //trace('isEqual: ', tile == getTile(tile.row, tile.col));
+                }
             }
         }
     }

@@ -5,6 +5,8 @@ package com.playtune.snatris.snakeNew {
     import com.playtune.gameKit.resources.ResourceManager;
     import com.playtune.gameKit.utils.ScaleBitmap;
 
+    import starling.display.Image;
+
     public class BodySegment extends SnakeSegment {
 
         private static const WIDTH:Number = 30;
@@ -16,8 +18,8 @@ package com.playtune.snatris.snakeNew {
 
         private function draw(gemType:GemColor):void {
             var resourceManager:ResourceManager = ResourceManager.instance;
-            var bulb:ScaleBitmap = new ScaleBitmap(resourceManager.getBitmapDataById(ImageResources.BODY.id));
-            var gem:ScaleBitmap = new ScaleBitmap(resourceManager.getBitmapDataById(GemFactory.getImageIdByType(gemType)));
+            var bulb:Image = new Image(resourceManager.getTextureById(ImageResources.BODY.id));
+            var gem:Image = new Image(resourceManager.getTextureById(GemFactory.getImageIdByType(gemType)));
             gem.height = bulb.height * .7;
             gem.width = bulb.width * .7;
             gem.x = bulb.width - gem.width >> 1;

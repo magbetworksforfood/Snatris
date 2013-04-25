@@ -1,9 +1,9 @@
 package com.playtune.snatris.snakeNew {
     import com.playtune.snatris.GameConstants;
     import com.playtune.snatris.tiles.SxTile;
-
-    import flash.display.Sprite;
     import flash.geom.Point;
+
+    import starling.display.Sprite;
 
 
     public class SnakeSegment extends Sprite implements ISegment {
@@ -42,15 +42,15 @@ package com.playtune.snatris.snakeNew {
 
             if (_startPoint.x != _endPoint.x || _startPoint.y != _endPoint.y) {
                 const destination:Point = _endPoint;
-//                var startPos:Point = new Point(x, y);
-                const startPos:Point = _startPoint;
+                var startPos:Point = new Point(x, y);
+                //const startPos:Point = _startPoint;
 
 
                 const delta:Point = destination.subtract(startPos);
 
-                const angle:Number = Math.atan2(delta.y, delta.x);
-                const rotation:Number = angle * 180 / Math.PI;
-                rotateChildren(rotation);
+//                const angle:Number = Math.atan2(delta.y, delta.x);
+//                const rotation:Number = angle * 180 / Math.PI;
+                rotateChildren(angle);
 
                 var progress:Number = time / GameConstants.GAME_SPEED;
 
@@ -63,6 +63,7 @@ package com.playtune.snatris.snakeNew {
 
                 x = myNewLoc.x >> 0;
                 y = myNewLoc.y >> 0;
+                trace(y);
             }
         }
 
@@ -76,6 +77,8 @@ package com.playtune.snatris.snakeNew {
             }
         }
 
+        private var angle:Number = 0;
+
         public function moveTo(tile:SxTile):void {
             //чтобы змейка не складывалась
             if (tile == currentTile) {
@@ -87,7 +90,7 @@ package com.playtune.snatris.snakeNew {
                 //currentTile ||= tile;
                 //startPoint = _endPoint;
 
-                startPoint = new Point(currentTile.x + (currentTile.width - this.width >> 1), currentTile.y + (currentTile.height - this.height >> 1))
+                startPoint = new Point(currentTile.x + (currentTile.width - this.width >> 1), currentTile.y + (currentTile.height - this.height >> 1));
 
                 endPoint = new Point(tile.x + (tile.width - this.width >> 1), tile.y + (tile.height - this.height >> 1));
 
@@ -98,6 +101,13 @@ package com.playtune.snatris.snakeNew {
                 if (_nextNode) {
                     _nextNode.moveTo(currentTile);
                 }
+
+                //angle
+                const destination:Point = new Point(tile.col, tile.row);
+                const startPos:Point = new Point(currentTile.col, currentTile.row);
+
+                const delta:Point = destination.subtract(startPos);
+                angle = Math.atan2(delta.y, delta.x);
             }
 
 

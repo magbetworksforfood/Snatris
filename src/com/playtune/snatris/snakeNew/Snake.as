@@ -3,9 +3,7 @@ package com.playtune.snatris.snakeNew {
     import com.playtune.snatris.entities.Gem;
     import com.playtune.snatris.tiles.SxTile;
 
-    import flash.display.Sprite;
-
-    import com.playtune.gameKit.utils.ColorUtil;
+    import starling.display.Sprite;
 
     public class Snake extends Sprite {
         private var segments:Vector.<ISegment> = new <ISegment>[];
