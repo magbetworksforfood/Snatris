@@ -1,5 +1,6 @@
 package com.playtune.snatris.snakeNew {
 
+    import com.playtune.snatris.entities.GemColor;
     import com.playtune.snatris.tiles.SxTile;
 
     import starling.display.Sprite;
@@ -19,7 +20,57 @@ package com.playtune.snatris.snakeNew {
             segmentAsSprite.x = from.x + (from.width - Sprite(segment).width >> 1);
             segmentAsSprite.y = from.y + (from.height - Sprite(segment).height >> 1);
 
+            segmentAsSprite.show(checkSameColors);
             addChild(segmentAsSprite);
+        }
+
+        public static const DELETE_COUNT:uint = 3;
+
+
+        //todo complete, fix
+        private function checkSameColors():void {
+            var prevColor:GemColor;
+            var itemsToDelete:Vector.<BodySegment> = new <BodySegment>[];
+
+            const length:uint = segments.length;
+            for (var i:uint = 0; i < length; i++) {
+                var segment:BodySegment = BodySegment(segments[i]);
+                var currentColor:GemColor = segment.gemType;
+                if (currentColor != prevColor) {
+                    itemsToDelete = new  <BodySegment>[];
+                }
+
+                itemsToDelete.push(segment);
+
+                prevColor = currentColor;
+
+                const deleteLength:uint = itemsToDelete.length;
+                if (deleteLength >= DELETE_COUNT) {
+                    for (var j:int = 0; j < deleteLength; j++) {
+                        var deleteSegment:ISegment = itemsToDelete[j];
+                        /*var index:int = segments.indexOf(deleteSegment);
+                        if (index != -1) {
+                            segments.splice(index, 1);
+                        }*/
+                        SnakeSegment(deleteSegment).hide();
+                        //removeChild(SnakeSegment(deleteSegment));
+                    }
+
+                    break;
+                }
+            }
+        }
+
+        public function removeSegment(segment:ISegment):void {
+            var index:int = segments.indexOf(segment);
+            if (index != -1) {
+                segments.splice(index, 1);
+            }
+
+            index = getChildIndex(BodySegment(segment));
+            if (index != -1) {
+                removeChildAt(index);
+            }
         }
 
         private function getFirstChild():ISegment {

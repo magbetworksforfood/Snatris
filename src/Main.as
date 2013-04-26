@@ -29,7 +29,7 @@ package {
 //            var sprite:Sprite = new Sprite();
 //            addChild(sprite);
 
-            addChild(new FPSMonitor());
+            //addChild(new FPSMonitor());
 
 //            NavigatorController.instance.init(this, sprite);
 
@@ -60,6 +60,7 @@ package {
 
             myStarling = new Starling(GameLoopScreen, stage);
             myStarling.antiAliasing = 1;
+            myStarling.showStats = true;
             myStarling.start();
         }
 

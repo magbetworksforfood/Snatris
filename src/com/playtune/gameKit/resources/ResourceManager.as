@@ -18,6 +18,7 @@ package com.playtune.gameKit.resources {
     import com.playtune.gameKit.preloader.Preloader;
 
     import starling.textures.Texture;
+    import starling.textures.TextureAtlas;
 
     public class ResourceManager extends EventDispatcher {
 
@@ -38,6 +39,8 @@ package com.playtune.gameKit.resources {
 
         private var textureById:Dictionary = new Dictionary();
         private var bitmapDataById:Dictionary = new Dictionary();
+
+        private static var atlas:TextureAtlas;
 
         public static function get instance():ResourceManager {
             if (!_instance) _instance = new ResourceManager(new SingletonData());
@@ -77,9 +80,17 @@ package com.playtune.gameKit.resources {
             return bitmapDataById[id];
         }
 
-        public function getTextureById(id:String):Texture {
+        public function getTextureById(id:String, fromAtlas:Boolean = true):Texture {
             if (textureById[id] == undefined) {
-                textureById[id] = Texture.fromBitmapData(getBitmapDataById(id));
+                if (fromAtlas) {
+                    if (!atlas) {
+                        var xml:XML = getXmlById(ImageResources.ATLAS_XML.id)
+                        atlas = new TextureAtlas(getTextureById(ImageResources.ATLAS_PNG.id, false), xml);
+                    }
+                    textureById[id] = atlas.getTexture(id);
+                } else {
+                    textureById[id] = Texture.fromBitmapData(getBitmapDataById(id));
+                }
             }
             return textureById[id];
         }

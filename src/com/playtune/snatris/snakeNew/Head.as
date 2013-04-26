@@ -65,7 +65,7 @@ package com.playtune.snatris.snakeNew {
         override public function rotateChildren(angle:Number):void {
             if (_angle != angle) {
                 _angle = angle;
-                headImg.rotation = angle//deg2rad(angle);
+                headImg.rotation = angle;//deg2rad(angle);
                 /*_angle = angle;
                 var radians:Number = angle * (Math.PI / 180);
                 trace(angle);

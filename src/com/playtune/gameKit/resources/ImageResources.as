@@ -17,12 +17,16 @@ package com.playtune.gameKit.resources {
         public static const GEM_BLUE:ExternalResource = new ExternalResource('gemBlue', 'assets/gemBlue.png');
 
         //snake
-        public static const HEAD:ExternalResource = new ExternalResource('head', 'assets/snakeHead.png');
-        public static const BODY:ExternalResource = new ExternalResource('body', 'assets/snakeBody.png');
-        public static const TAIL:ExternalResource = new ExternalResource('tail', 'assets/snakeTail.png');
+        public static const HEAD:ExternalResource = new ExternalResource('snakeHead', 'assets/snakeHead.png');
+        public static const BODY:ExternalResource = new ExternalResource('snakeBody', 'assets/snakeBody.png');
+        public static const TAIL:ExternalResource = new ExternalResource('snakeTail', 'assets/snakeTail.png');
+
+        //atlas
+        public static const ATLAS_PNG:ExternalResource = new ExternalResource('atlas_png', 'assets/snatris.png');
+        public static const ATLAS_XML:ExternalResource = new ExternalResource('atlas_xml', 'assets/snatris.xml', ResourceType.XML);
 
         public static const preload:Vector.<ExternalResource> = new <ExternalResource>[
-            BACKGROUND,
+            /*BACKGROUND,
             CELL_BORDER,
             CELL_DOT,
             BORDER,
@@ -35,7 +39,9 @@ package com.playtune.gameKit.resources {
             GEM_BLUE,
             HEAD,
             BODY,
-            TAIL
+            TAIL*/
+            ATLAS_PNG,
+            ATLAS_XML
         ];
 
         public function ImageResources():void {

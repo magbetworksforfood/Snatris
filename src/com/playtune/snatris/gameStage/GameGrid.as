@@ -24,6 +24,9 @@ package com.playtune.snatris.gameStage {
         public static const ROWS:uint = 12;
         public static const COLS:uint = 12;
 
+        private var topLayer:Sprite;
+        private var bottomLayer:Sprite;
+
         private var tiles:Vector.<Vector.<SxTile>> = new Vector.<Vector.<SxTile>>();
 
         public function GameGrid() {
@@ -32,6 +35,11 @@ package com.playtune.snatris.gameStage {
 
         private function init(event:Event):void {
             removeEventListener(Event.ADDED_TO_STAGE, init);
+            topLayer = new Sprite();
+            bottomLayer = new Sprite();
+
+            addChild(bottomLayer);
+            addChild(topLayer);
 
             var scaledTexture:Scale9Textures = new Scale9Textures(ResourceManager.instance.getTextureById(ImageResources.BORDER.id), new Rectangle(52, 52, 2, 2));
             var border:Scale9Image = new Scale9Image(scaledTexture);
@@ -39,9 +47,7 @@ package com.playtune.snatris.gameStage {
             border.height = SxTile.HEIGHT  * ROWS + 46;
             border.x = -23;
             border.y = -23;
-            addChild(border);
-
-            var sprite
+            topLayer.addChild(border);
 
             for (var k:int = 0; k < ROWS; k++) {
                 tiles[k] = new Vector.<SxTile>(COLS);
@@ -52,20 +58,17 @@ package com.playtune.snatris.gameStage {
                     var tile:SxTile = createTile(i, j);
 
                     if (i < GameGrid.ROWS - 1 && j < GameGrid.COLS - 1) {
-                        /*var cellDot:ScaleBitmap = new ScaleBitmap(ResourceManager.instance.getBitmapDataById(ImageResources.CELL_DOT.id));
-                         cellDot.x = tile.x + tile.width - (cellDot.width >> 1);
-                         cellDot.y = tile.y + tile.height - (cellDot.height >> 1);
-                         addChild(cellDot);*/
-
                         var cellDot:Image = new Image(ResourceManager.instance.getTextureById(ImageResources.CELL_DOT.id));
                         cellDot.x = tile.x + tile.width - (cellDot.width >> 1);
                         cellDot.y = tile.y + tile.height - (cellDot.height >> 1);
-                        addChild(cellDot);
+                        topLayer.addChild(cellDot);
                     }
 
-                    addChild(tile);
+                    bottomLayer.addChild(tile);
                 }
             }
+
+            topLayer.flatten();
 
             /*var border:ScaleBitmap = new ScaleBitmap(ResourceManager.instance.getBitmapDataById(ImageResources.BORDER.id));
             border.scale9Grid = new Rectangle(52, 52, 2, 2);
@@ -102,11 +105,14 @@ package com.playtune.snatris.gameStage {
 
                 var tile:SxTile = getTile(Math.floor(pos.y / SxTile.HEIGHT), Math.floor(pos.x / SxTile.WIDTH));
 
+
                 if (tile) {
+                   // unflatten();
                     var prob:Number = Math.random();
                     tile.put(new Gem(prob >.6 ? GemColor.RED : prob > 0.3 ? GemColor.GREEN : GemColor.BLUE));
                     //trace('row ', tile.row, 'col ', tile.col);
                     //trace('isEqual: ', tile == getTile(tile.row, tile.col));
+                    //flatten();
                 }
             }
         }

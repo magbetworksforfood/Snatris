@@ -63,7 +63,7 @@ package com.playtune.snatris.snakeNew {
 
                 x = myNewLoc.x >> 0;
                 y = myNewLoc.y >> 0;
-                trace(y);
+                //trace(y);
             }
         }
 
@@ -122,6 +122,14 @@ package com.playtune.snatris.snakeNew {
         }
 
         public function rotateChildren(angle:Number):void {
+
+        }
+
+        public function show(onComplete:Function):void {
+
+        }
+
+        public function hide(removeFromParent:Boolean = true):void {
 
         }
     }

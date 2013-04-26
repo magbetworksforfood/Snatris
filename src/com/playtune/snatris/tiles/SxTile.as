@@ -41,6 +41,7 @@ package com.playtune.snatris.tiles {
 //            bitmap.bitmapData = ResourceManager.instance.getBitmapDataById(ImageResources.CELL_BORDER.id);
             //bitmap.width = WIDTH;
             //bitmap.height = HEIGHT;
+
             var image:Image = new Image(ResourceManager.instance.getTextureById(ImageResources.CELL_BORDER.id));
             image.width = WIDTH;
             image.height = HEIGHT;
